@@ -4,10 +4,12 @@ public class Jugador {
     private Posiciones posicionJugador;
 
     private float costoJugador;
-    private double ataqueJuegador;
-    private double defensaJugador;
+    private int ataqueJugador;
+    private int defensaJugador;
     private int golesJugador;
-    
+    private float costoVenta;
+    private int valoracionTotal;
+
     enum Posiciones {
         Portero,
         Defensor,
@@ -16,6 +18,8 @@ public class Jugador {
     }
 
     public Jugador() {
+        this.costoVenta = costoJugador/2;
+        this.valoracionTotal = (ataqueJugador+defensaJugador)/2;
     }
 
     public String getNombreJugador() {
@@ -43,18 +47,18 @@ public class Jugador {
     }
 
     public double getAtaqueJuegador() {
-        return ataqueJuegador;
+        return ataqueJugador;
     }
 
-    public void setAtaqueJuegador(double ataqueJuegador) {
-        this.ataqueJuegador = ataqueJuegador;
+    public void setAtaqueJuegador(int ataqueJuegador) {
+        this.ataqueJugador = ataqueJuegador;
     }
 
     public double getDefensaJugador() {
         return defensaJugador;
     }
 
-    public void setDefensaJugador(double defensaJugador) {
+    public void setDefensaJugador(int defensaJugador) {
         this.defensaJugador = defensaJugador;
     }
 
@@ -71,7 +75,7 @@ public class Jugador {
                 "nombreJugador='" + nombreJugador + '\'' +
                 ", posicionJugador=" + posicionJugador +
                 ", costoJugador=" + costoJugador +
-                ", ataqueJuegador=" + ataqueJuegador +
+                ", ataqueJuegador=" + ataqueJugador +
                 ", defensaJugador=" + defensaJugador +
                 ", valoracionTotal=" + valoracionTotal +
                 '}';
