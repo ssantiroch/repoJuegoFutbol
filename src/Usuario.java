@@ -1,13 +1,15 @@
-public class Persona {
+import java.util.Scanner;
+
+public class Usuario {
     private String nombreUsuario;
-    private long idUsuario;
+    private String idUsuario;
     private String contraseñaUsuario;
     private boolean administrador;
     private String email;
 
-    public Persona() {
+    public Usuario() {
     }
-public String getNombreUsuario() {
+    public String getNombreUsuario() {
         return nombreUsuario;
     }
 
@@ -15,11 +17,11 @@ public String getNombreUsuario() {
         this.nombreUsuario = nombreUsuario;
     }
 
-    public long getIdUsuario() {
+    public String getIdUsuario() {
         return idUsuario;
     }
 
-    public void setIdUsuario(long idUsuario) {
+    public void setIdUsuario(String idUsuario) {
         this.idUsuario = idUsuario;
     }
 
@@ -46,7 +48,25 @@ public String getNombreUsuario() {
     public void setEmail(String email) {
         this.email = email;
     }
-    
+
+
+
+    public final boolean inicioSesionAdmin(){
+        boolean sesionIniciada = false;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("INICIO DE SESION ADMINISTRADOR:");
+        System.out.println("Nombre de Usuario o Email: ");
+        setNombreUsuario(scanner.next()); // O EMAIL
+        System.out.println("Contraseña: ");
+        setContraseñaUsuario(scanner.next());
+        //comprobacion de usuario y contraseña correcta
+        if(isAdministrador()){
+            sesionIniciada=true;
+        }
+        return sesionIniciada;
+    }
+
+
 }
 
 //FALTA: validacion de casi todos los atributos, comprobar repetidos de NombreUsuario, ID, Email

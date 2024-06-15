@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Competidor extends Persona {
+public class Competidor extends Usuario {
 
     private Equipo equipoDeUsario;
     private double fichas;
