@@ -8,6 +8,7 @@ public class Partido extends Liga{
     public int golesLocal;
     public Equipo equipoVisitantePartido;
     public int golesVisitante;
+
     public Partido(String nombreLiga) {
         super(nombreLiga);
 
@@ -48,8 +49,8 @@ public class Partido extends Liga{
             equipoLocalPartido.setVentajaDeEquipo(false);
         }
         while(oportunidadesLocal > 0 && oportunidadesVisitante > 0){
-            System.out.println("Elige donde patear");
-            System.out.println("Izquierda(1) - Centro(2) - Derecha(3)");
+            System.out.println("                Elige donde patear                ");
+            System.out.println("   Izquierda(1) -     Centro(2)    - Derecha(3)");
             int opcion = teclado.nextInt();
             System.out.println(equipoLocalPartido.nombreEquipo+" " +golesLocal + " "+golesVisitante+" " +equipoVisitantePartido.nombreEquipo);
             if(opcion != iV){
@@ -60,8 +61,8 @@ public class Partido extends Liga{
             else{
                 System.out.println("Atajo el arquero de "+ equipoVisitantePartido.nombreEquipo);
             }
-            System.out.println("Elige donde atajar");
-            System.out.println("Izquierda(1) - Centro(2) - Derecha(3)");
+            System.out.println("                Elige donde atajar                ");
+            System.out.println("   Izquierda(1) -     Centro(2)    - Derecha(3)");
             opcion = teclado.nextInt();
             if(opcion == iL){
                 System.out.println("¡¡Atajaste!!");
