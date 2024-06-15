@@ -2,16 +2,16 @@ import java.util.Optional;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Partido extends Liga{
+public class Partido{
 
     public Equipo equipoLocalPartido;
     public int golesLocal;
     public Equipo equipoVisitantePartido;
     public int golesVisitante;
 
-    public Partido(String nombreLiga) {
-        super(nombreLiga);
-
+    public Partido(Equipo equipoLocalPartido, Equipo equipoVisitantePartido) {
+        this.equipoLocalPartido = equipoLocalPartido;
+        this.equipoVisitantePartido = equipoVisitantePartido;
     }
 
     public int getGolesLocal() {
@@ -49,7 +49,7 @@ public class Partido extends Liga{
             equipoLocalPartido.setVentajaDeEquipo(false);
         }
         while(oportunidadesLocal > 0 && oportunidadesVisitante > 0){
-            System.out.println("                Elige donde patear                ");
+            System.out.println("                Elige donde atajar                ");
             System.out.println("   Izquierda(1) -     Centro(2)    - Derecha(3)");
             int opcion = teclado.nextInt();
             System.out.println(equipoLocalPartido.nombreEquipo+" " +golesLocal + " "+golesVisitante+" " +equipoVisitantePartido.nombreEquipo);
