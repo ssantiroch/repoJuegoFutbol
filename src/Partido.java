@@ -24,8 +24,8 @@ public class Partido {
 
     private void jugarPartidoSimulado() {
         Random rand = new Random();
-        this.golesLocal = rand.nextInt(5); // Máximo de 4 goles por partido
-        this.golesVisitante = rand.nextInt(5);
+        this.golesLocal = rand.nextInt(6);
+        this.golesVisitante = rand.nextInt(6);
 
         // Mostrar resultados del partido
         System.out.println("Resultado del partido simulado: ");
@@ -57,22 +57,23 @@ public class Partido {
             oportunidadesLocal = 3;
         }
         System.out.println("   Comienza el partido entre "+equipoLocalPartido.getNombreEquipo()+"-"+equipoVisitantePartido.getNombreEquipo());
-        while (oportunidadesLocal > 0 && oportunidadesVisitante > 0) {
-            int opcion = teclado.nextInt();
+        while (oportunidadesLocal > 0 || oportunidadesVisitante > 0) {
+            int opcion = 0;
             if (oportunidadesLocal > 0) {
                 System.out.println(equipoLocalPartido.nombreEquipo + " " + golesLocal + " " + golesVisitante + " " + equipoVisitantePartido.nombreEquipo);
                 System.out.println("                Elige donde patear                ");
                 System.out.println("   Izquierda(1) -     Centro(2)    - Derecha(3)");
+                opcion = teclado.nextInt();
                 int iV = rand.nextInt(3) + 1;
-                System.out.println(equipoLocalPartido.nombreEquipo + " " + golesLocal + " " + golesVisitante + " " + equipoVisitantePartido.nombreEquipo);
                 if (opcion != iV) {
                     System.out.println("¡¡GOL DE " + equipoLocalPartido.nombreEquipo + "!!");
                     golesLocal++;
                 } else {
-                    System.out.println("Atajo el arquero de " + equipoVisitantePartido.nombreEquipo);
+                    System.out.println("Atajo el arquero de" + equipoVisitantePartido.nombreEquipo);
                 }
-            }else if(oportunidadesVisitante>0){
-                System.out.println(equipoLocalPartido.getNombreEquipo()+" "+golesLocal+"-"+golesVisitante+equipoVisitantePartido.getNombreEquipo());
+            }
+            if(oportunidadesVisitante>0){
+                System.out.println(equipoLocalPartido.getNombreEquipo()+" "+golesLocal+"-"+golesVisitante+" "+equipoVisitantePartido.getNombreEquipo());
                 System.out.println("                Elige donde atajar                ");
                 System.out.println("   Izquierda(1) -     Centro(2)    - Derecha(3)");
                 opcion = teclado.nextInt();
@@ -83,7 +84,6 @@ public class Partido {
                     System.out.println("¡¡Gol de " + equipoVisitantePartido.nombreEquipo + "!!");
                     golesVisitante++;
                 }
-                System.out.println(equipoLocalPartido.nombreEquipo + " " + golesLocal + " " + golesVisitante + " " + equipoVisitantePartido.nombreEquipo);
             }
 
             oportunidadesLocal--;
