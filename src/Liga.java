@@ -21,16 +21,15 @@ public class Liga {
     public void mostrarMenu() {
         Scanner scanner = new Scanner(System.in);
         int opcion = 0;
-        while (opcion != 5) {
+        while (opcion != 4) {
             System.out.println("\nMenú de Liga:");
             System.out.println("1. Jugar partido");
             System.out.println("2. Ver tabla de posiciones");
             System.out.println("3. Ver calendario");
-            System.out.println("4. Modificar equipo");
-            System.out.println("5. Salir");
+            System.out.println("4. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
-            scanner.nextLine();  // Consumir el salto de línea
+            scanner.nextLine();
 
             switch (opcion) {
                 case 1:
@@ -43,8 +42,6 @@ public class Liga {
                     mostrarCalendario();
                     break;
                 case 4:
-                    break;
-                case 5:
                     System.out.println("Saliendo del programa...");
                     break;
                 default:
@@ -90,7 +87,10 @@ public class Liga {
     }
     public boolean verificarAscenso() {
         Collections.sort(equipos, Comparator.comparingInt(Equipo::getPuntos).reversed());
-        return equipos.get(0).equals(equipoUsuario);
+        if(equipos.get(0).equals(equipoUsuario)){
+            return true;
+        }
+        return false;
     }
 
     public void reiniciarLiga() {
@@ -103,5 +103,13 @@ public class Liga {
         partidos.clear();
         partidoActual = 0;
         generarCalendario();
+    }
+
+    public List<Equipo> getEquipos() {
+        return equipos;
+    }
+
+    public void setEquipos(List<Equipo> equipos) {
+        this.equipos = equipos;
     }
 }
