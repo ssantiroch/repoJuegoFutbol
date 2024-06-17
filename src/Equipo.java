@@ -14,8 +14,33 @@ public class Equipo {
     private int victorias;
     private int empates;
     private int derrotas;
+    public int puntos;
 
     public Equipo() {
+        calcularPuntajeEquipo();
+    }
+
+    public Equipo(String nombreEquipo, String dtEquipo, int puntajeEquipo, Jugador[] jugadoresEquipo) {
+        this.nombreEquipo = nombreEquipo;
+        this.dtEquipo = dtEquipo;
+        this.puntajeEquipo = puntajeEquipo;
+        this.jugadoresEquipo = jugadoresEquipo;
+        calcularPuntajeEquipo();
+    }
+
+    private void calcularPuntajeEquipo(){
+        int puntaje=0;
+        for(int i = 0; i < jugadoresEquipo.length; i++){
+            puntaje += jugadoresEquipo[i].getValoracionTotal();
+        }
+        this.puntajeEquipo = puntaje;
+    }
+
+    public void sumarPuntos(int puntos) {
+        this.puntos += puntos;
+    }
+    public void sumarPresupuesto(int dinero){
+        this.presupuestoEquipo += dinero;
     }
 
     public String getNombreEquipo() {
@@ -88,5 +113,13 @@ public class Equipo {
 
     public void setDerrotas(int derrotas) {
         this.derrotas = derrotas;
+    }
+
+    public int getPuntos() {
+        return puntos;
+    }
+
+    public void setPuntos(int puntos) {
+        this.puntos = puntos;
     }
 }
