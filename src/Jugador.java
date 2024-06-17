@@ -17,6 +17,11 @@ public class Jugador {
         Delantero,
     }
 
+    public Jugador(String nombreJugador, int valoracionTotal) {
+        this.nombreJugador = nombreJugador;
+        this.valoracionTotal = valoracionTotal;
+    }
+
     public Jugador(String nombreJugador, Posiciones posicionJugador, float costoJugador, int ataqueJugador, int defensaJugador) {
         this.nombreJugador = nombreJugador;
         this.posicionJugador = posicionJugador;
@@ -28,7 +33,8 @@ public class Jugador {
     }
 
     public Jugador() {
-
+        calcularCostoVenta();
+        calcularValoracionTotal();
     }
 
     private void calcularCostoVenta() {
