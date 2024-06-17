@@ -28,6 +28,13 @@ public class Equipo {
         calcularPuntajeEquipo();
     }
 
+    public Equipo(String nombreEquipo, String dtEquipo, int puntajeEquipo) {
+        this.nombreEquipo = nombreEquipo;
+        this.dtEquipo = dtEquipo;
+        this.puntajeEquipo = puntajeEquipo;
+        calcularPuntajeEquipo();
+    }
+
     private void calcularPuntajeEquipo(){
         int puntaje=0;
         for(int i = 0; i < jugadoresEquipo.length; i++){
