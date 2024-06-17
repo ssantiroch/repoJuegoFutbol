@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.UUID;
 
-public class Registro extends Usuario {
+public class Registro extends Persona{
     public String generarID(){
         UUID uuid = UUID.randomUUID();
         return uuid.toString();

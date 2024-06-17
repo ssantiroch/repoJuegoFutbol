@@ -17,9 +17,32 @@ public class Jugador {
         Delantero,
     }
 
+    public Jugador(String nombreJugador, int valoracionTotal) {
+        this.nombreJugador = nombreJugador;
+        this.valoracionTotal = valoracionTotal;
+    }
+
+    public Jugador(String nombreJugador, Posiciones posicionJugador, float costoJugador, int ataqueJugador, int defensaJugador) {
+        this.nombreJugador = nombreJugador;
+        this.posicionJugador = posicionJugador;
+        this.costoJugador = costoJugador;
+        this.ataqueJugador = ataqueJugador;
+        this.defensaJugador = defensaJugador;
+        calcularCostoVenta();
+        calcularValoracionTotal();
+    }
+
     public Jugador() {
-        this.costoVenta = costoJugador/2;
-        this.valoracionTotal = (ataqueJugador+defensaJugador)/2;
+        calcularCostoVenta();
+        calcularValoracionTotal();
+    }
+
+    private void calcularCostoVenta() {
+        this.costoVenta = this.costoJugador / 2;
+    }
+
+    private void calcularValoracionTotal() {
+        this.valoracionTotal = (this.ataqueJugador + this.defensaJugador) / 2;
     }
 
     public String getNombreJugador() {
@@ -30,7 +53,7 @@ public class Jugador {
         this.nombreJugador = nombreJugador;
     }
 
-    public Enum getPosicionJugador() {
+    public Posiciones getPosicionJugador() {
         return posicionJugador;
     }
 
@@ -44,22 +67,25 @@ public class Jugador {
 
     public void setCostoJugador(float costoJugador) {
         this.costoJugador = costoJugador;
+        calcularCostoVenta();
     }
 
-    public double getAtaqueJuegador() {
+    public int getAtaqueJugador() {
         return ataqueJugador;
     }
 
-    public void setAtaqueJuegador(int ataqueJuegador) {
-        this.ataqueJugador = ataqueJuegador;
+    public void setAtaqueJugador(int ataqueJugador) {
+        this.ataqueJugador = ataqueJugador;
+        calcularValoracionTotal();
     }
 
-    public double getDefensaJugador() {
+    public int getDefensaJugador() {
         return defensaJugador;
     }
 
     public void setDefensaJugador(int defensaJugador) {
         this.defensaJugador = defensaJugador;
+        calcularValoracionTotal();
     }
 
     public int getGolesJugador() {
@@ -69,13 +95,22 @@ public class Jugador {
     public void setGolesJugador(int golesJugador) {
         this.golesJugador = golesJugador;
     }
+
+    public float getCostoVenta() {
+        return costoVenta;
+    }
+
+    public int getValoracionTotal() {
+        return valoracionTotal;
+    }
+
     @Override
     public String toString() {
         return "Jugador{" +
                 "nombreJugador='" + nombreJugador + '\'' +
                 ", posicionJugador=" + posicionJugador +
                 ", costoJugador=" + costoJugador +
-                ", ataqueJuegador=" + ataqueJugador +
+                ", ataqueJugador=" + ataqueJugador +
                 ", defensaJugador=" + defensaJugador +
                 ", valoracionTotal=" + valoracionTotal +
                 '}';
