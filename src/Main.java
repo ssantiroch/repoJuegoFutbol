@@ -92,5 +92,7 @@ public class Main {
                 ligaActual.reiniciarLiga();
             }
         }
+
+        System.out.println("aaa");
     }
 }
