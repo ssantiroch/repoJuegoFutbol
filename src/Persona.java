@@ -50,4 +50,4 @@ public String getNombreUsuario() {
 }
 
 //FALTA: validacion de casi todos los atributos, comprobar repetidos de NombreUsuario, ID, Email
-//Buscar la manera de determinar si alguien puede ser admin o usuario}
+//Buscar la manera de determinar si alguien puede ser admin o usuario} ---
