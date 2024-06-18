@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Jaume Domènech', posicionJugador=Portero, costoJugador=4000000.0, ataqueJugador=35, defensaJugador=80, valoracionTotal=57}
+Jugador{nombreJugador='Cristhian Mosquera', posicionJugador=Defensor, costoJugador=6000000.0, ataqueJugador=50, defensaJugador=75, valoracionTotal=62}
+Jugador{nombreJugador='Mouctar Diakhaby', posicionJugador=Defensor, costoJugador=8000000.0, ataqueJugador=60, defensaJugador=80, valoracionTotal=70}
+Jugador{nombreJugador='Thierry Correia', posicionJugador=Defensor, costoJugador=9000000.0, ataqueJugador=45, defensaJugador=75, valoracionTotal=60}
+Jugador{nombreJugador='José Gayà', posicionJugador=Defensor, costoJugador=1.2E7, ataqueJugador=55, defensaJugador=80, valoracionTotal=67}
+Jugador{nombreJugador='Sergi Canós', posicionJugador=Mediocampista, costoJugador=1.0E7, ataqueJugador=65, defensaJugador=75, valoracionTotal=70}
+Jugador{nombreJugador='Javi Guerra', posicionJugador=Mediocampista, costoJugador=8000000.0, ataqueJugador=60, defensaJugador=70, valoracionTotal=65}
+Jugador{nombreJugador='Pepelu', posicionJugador=Mediocampista, costoJugador=7000000.0, ataqueJugador=55, defensaJugador=65, valoracionTotal=60}
+Jugador{nombreJugador='Hugo Duro', posicionJugador=Delantero, costoJugador=1.2E7, ataqueJugador=75, defensaJugador=78, valoracionTotal=76}
+Jugador{nombreJugador='Alberto Marí', posicionJugador=Delantero, costoJugador=7500000.0, ataqueJugador=60, defensaJugador=70, valoracionTotal=65}
+Jugador{nombreJugador='Joselu', posicionJugador=Delantero, costoJugador=6000000.0, ataqueJugador=55, defensaJugador=65, valoracionTotal=60}

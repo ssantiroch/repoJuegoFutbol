@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Thibaut Courtois', posicionJugador=Portero, costoJugador=2.5E7, ataqueJugador=40, defensaJugador=85, valoracionTotal=62}
+Jugador{nombreJugador='Éder Militão', posicionJugador=Defensor, costoJugador=2.0E7, ataqueJugador=55, defensaJugador=80, valoracionTotal=67}
+Jugador{nombreJugador='David Alaba', posicionJugador=Defensor, costoJugador=3.0E7, ataqueJugador=60, defensaJugador=85, valoracionTotal=72}
+Jugador{nombreJugador='Nacho', posicionJugador=Defensor, costoJugador=1.5E7, ataqueJugador=50, defensaJugador=75, valoracionTotal=62}
+Jugador{nombreJugador='Ferland Mendy', posicionJugador=Defensor, costoJugador=1.8E7, ataqueJugador=55, defensaJugador=80, valoracionTotal=67}
+Jugador{nombreJugador='Jude Bellingham', posicionJugador=Mediocampista, costoJugador=3.5E7, ataqueJugador=75, defensaJugador=75, valoracionTotal=75}
+Jugador{nombreJugador='Toni Kroos', posicionJugador=Mediocampista, costoJugador=4.0E7, ataqueJugador=80, defensaJugador=75, valoracionTotal=77}
+Jugador{nombreJugador='Luka Modric', posicionJugador=Mediocampista, costoJugador=3.0E7, ataqueJugador=75, defensaJugador=80, valoracionTotal=77}
+Jugador{nombreJugador='Vinícius Júnior', posicionJugador=Delantero, costoJugador=5.0E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}
+Jugador{nombreJugador='Rodrygo', posicionJugador=Delantero, costoJugador=4.5E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Kylian Mbappe', posicionJugador=Delantero, costoJugador=7.0E7, ataqueJugador=99, defensaJugador=80, valoracionTotal=89}

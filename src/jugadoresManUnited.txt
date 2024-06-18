@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Andrè Onana', posicionJugador=Portero, costoJugador=5000000.0, ataqueJugador=30, defensaJugador=80, valoracionTotal=55}
+Jugador{nombreJugador='Harry Maguire', posicionJugador=Defensor, costoJugador=6.0E7, ataqueJugador=30, defensaJugador=75, valoracionTotal=52}
+Jugador{nombreJugador='Raphaël Varane', posicionJugador=Defensor, costoJugador=7.0E7, ataqueJugador=30, defensaJugador=75, valoracionTotal=52}
+Jugador{nombreJugador='Luke Shaw', posicionJugador=Defensor, costoJugador=5.0E7, ataqueJugador=60, defensaJugador=70, valoracionTotal=65}
+Jugador{nombreJugador='Bruno Fernandes', posicionJugador=Mediocampista, costoJugador=8.0E7, ataqueJugador=85, defensaJugador=75, valoracionTotal=80}
+Jugador{nombreJugador='Christian Eriksen', posicionJugador=Mediocampista, costoJugador=2.5E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Scott McTominay', posicionJugador=Mediocampista, costoJugador=4.0E7, ataqueJugador=70, defensaJugador=75, valoracionTotal=72}
+Jugador{nombreJugador='Marcus Rashford', posicionJugador=Delantero, costoJugador=7.0E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}
+Jugador{nombreJugador='Rasmus Højlund', posicionJugador=Delantero, costoJugador=4.0E7, ataqueJugador=80, defensaJugador=65, valoracionTotal=72}
+Jugador{nombreJugador='Amad Diallo', posicionJugador=Delantero, costoJugador=3.0E7, ataqueJugador=75, defensaJugador=70, valoracionTotal=72}
+Jugador{nombreJugador='Antony', posicionJugador=Delantero, costoJugador=5.0E7, ataqueJugador=75, defensaJugador=65, valoracionTotal=70}

@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Jan Oblak', posicionJugador=Portero, costoJugador=2.5E7, ataqueJugador=40, defensaJugador=90, valoracionTotal=65}
+Jugador{nombreJugador='José Giménez', posicionJugador=Defensor, costoJugador=2.0E7, ataqueJugador=70, defensaJugador=90, valoracionTotal=80}
+Jugador{nombreJugador='César Azpilicueta', posicionJugador=Defensor, costoJugador=1.2E7, ataqueJugador=50, defensaJugador=80, valoracionTotal=65}
+Jugador{nombreJugador='Stefan Savic', posicionJugador=Defensor, costoJugador=1.3E7, ataqueJugador=55, defensaJugador=82, valoracionTotal=68}
+Jugador{nombreJugador='Nahuel Molina', posicionJugador=Defensor, costoJugador=1.0E7, ataqueJugador=45, defensaJugador=75, valoracionTotal=60}
+Jugador{nombreJugador='Rodrigo De Paul', posicionJugador=Mediocampista, costoJugador=2.5E7, ataqueJugador=80, defensaJugador=85, valoracionTotal=82}
+Jugador{nombreJugador='Thomas Lemar', posicionJugador=Mediocampista, costoJugador=2.0E7, ataqueJugador=75, defensaJugador=80, valoracionTotal=77}
+Jugador{nombreJugador='Marcos Llorente', posicionJugador=Mediocampista, costoJugador=2.7E7, ataqueJugador=78, defensaJugador=85, valoracionTotal=81}
+Jugador{nombreJugador='Antoine Griezmann', posicionJugador=Delantero, costoJugador=2.2E7, ataqueJugador=75, defensaJugador=80, valoracionTotal=77}
+Jugador{nombreJugador='Ángel Correa', posicionJugador=Delantero, costoJugador=2.0E7, ataqueJugador=72, defensaJugador=78, valoracionTotal=75}
+Jugador{nombreJugador='Álvaro Morata', posicionJugador=Delantero, costoJugador=1.5E7, ataqueJugador=75, defensaJugador=75, valoracionTotal=75}

@@ -1,0 +1,12 @@
+Jugador{nombreJugador='Ederson', posicionJugador=Portero, costoJugador=8.0E7, ataqueJugador=50, defensaJugador=85, valoracionTotal=67}
+Jugador{nombreJugador='Rúben Dias', posicionJugador=Defensor, costoJugador=7.0E7, ataqueJugador=40, defensaJugador=85, valoracionTotal=62}
+Jugador{nombreJugador='John Stones', posicionJugador=Defensor, costoJugador=6.0E7, ataqueJugador=40, defensaJugador=80, valoracionTotal=60}
+Jugador{nombreJugador='Kyle Walker', posicionJugador=Defensor, costoJugador=6.0E7, ataqueJugador=70, defensaJugador=75, valoracionTotal=72}
+Jugador{nombreJugador='Kevin De Bruyne', posicionJugador=Mediocampista, costoJugador=9.0E7, ataqueJugador=85, defensaJugador=75, valoracionTotal=80}
+Jugador{nombreJugador='Rodri', posicionJugador=Mediocampista, costoJugador=8.0E7, ataqueJugador=75, defensaJugador=80, valoracionTotal=77}
+Jugador{nombreJugador='Phil Foden', posicionJugador=Mediocampista, costoJugador=7.5E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Erling Haaland', posicionJugador=Delantero, costoJugador=1.5E8, ataqueJugador=90, defensaJugador=70, valoracionTotal=80}
+Jugador{nombreJugador='Jérémy Doku', posicionJugador=Delantero, costoJugador=7.0E7, ataqueJugador=85, defensaJugador=65, valoracionTotal=75}
+Jugador{nombreJugador='Bernardo Silva', posicionJugador=Mediocampista, costoJugador=7.0E7, ataqueJugador=75, defensaJugador=75, valoracionTotal=75}
+Jugador{nombreJugador='Julián Álvarez', posicionJugador=Delantero, costoJugador=6.0E7, ataqueJugador=80, defensaJugador=65, valoracionTotal=72}
+Jugador{nombreJugador='Jack Grealish', posicionJugador=Delantero, costoJugador=8.0E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}

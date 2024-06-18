@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Alisson Becker', posicionJugador=Portero, costoJugador=5.0E7, ataqueJugador=40, defensaJugador=85, valoracionTotal=62}
+Jugador{nombreJugador='Virgil van Dijk', posicionJugador=Defensor, costoJugador=6.0E7, ataqueJugador=50, defensaJugador=85, valoracionTotal=67}
+Jugador{nombreJugador='Ibrahima Konaté', posicionJugador=Defensor, costoJugador=3.5E7, ataqueJugador=45, defensaJugador=80, valoracionTotal=62}
+Jugador{nombreJugador='Trent Alexander-Arnold', posicionJugador=Defensor, costoJugador=7.0E7, ataqueJugador=75, defensaJugador=80, valoracionTotal=77}
+Jugador{nombreJugador='Andy Robertson', posicionJugador=Defensor, costoJugador=6.0E7, ataqueJugador=70, defensaJugador=85, valoracionTotal=77}
+Jugador{nombreJugador='Thiago Alcântara', posicionJugador=Mediocampista, costoJugador=5.0E7, ataqueJugador=80, defensaJugador=75, valoracionTotal=77}
+Jugador{nombreJugador='Dominik Szoboszlai', posicionJugador=Mediocampista, costoJugador=4.5E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}
+Jugador{nombreJugador='Harvey Elliott', posicionJugador=Mediocampista, costoJugador=4.0E7, ataqueJugador=75, defensaJugador=70, valoracionTotal=72}
+Jugador{nombreJugador='Luis Díaz', posicionJugador=Delantero, costoJugador=5.5E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}
+Jugador{nombreJugador='Darwin Núñez', posicionJugador=Delantero, costoJugador=6.0E7, ataqueJugador=85, defensaJugador=75, valoracionTotal=80}
+Jugador{nombreJugador='Diogo Jota', posicionJugador=Delantero, costoJugador=5.0E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}

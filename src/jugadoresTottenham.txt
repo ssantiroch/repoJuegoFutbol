@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Guglielmo Vicario', posicionJugador=Portero, costoJugador=3.0E7, ataqueJugador=60, defensaJugador=85, valoracionTotal=72}
+Jugador{nombreJugador='Cristian Romero', posicionJugador=Defensor, costoJugador=5.0E7, ataqueJugador=75, defensaJugador=85, valoracionTotal=80}
+Jugador{nombreJugador='Micky Van de Ven', posicionJugador=Defensor, costoJugador=3.5E7, ataqueJugador=70, defensaJugador=80, valoracionTotal=75}
+Jugador{nombreJugador='Destiny Udogie', posicionJugador=Defensor, costoJugador=5.0E7, ataqueJugador=80, defensaJugador=80, valoracionTotal=80}
+Jugador{nombreJugador='Pedro Porro', posicionJugador=Defensor, costoJugador=3.5E7, ataqueJugador=80, defensaJugador=75, valoracionTotal=77}
+Jugador{nombreJugador='Rodrigo Bentancur', posicionJugador=Mediocampista, costoJugador=3.5E7, ataqueJugador=70, defensaJugador=75, valoracionTotal=72}
+Jugador{nombreJugador='Pierre-Emile Højbjerg', posicionJugador=Mediocampista, costoJugador=4.0E7, ataqueJugador=75, defensaJugador=75, valoracionTotal=75}
+Jugador{nombreJugador='James Maddison', posicionJugador=Mediocampista, costoJugador=6.0E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Son Heung-Min', posicionJugador=Delantero, costoJugador=8.0E7, ataqueJugador=85, defensaJugador=75, valoracionTotal=80}
+Jugador{nombreJugador='Richarlison', posicionJugador=Delantero, costoJugador=7.0E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Timo Werner', posicionJugador=Delantero, costoJugador=6.0E7, ataqueJugador=85, defensaJugador=70, valoracionTotal=77}

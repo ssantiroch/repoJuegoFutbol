@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Robert Sánchez', posicionJugador=Portero, costoJugador=1.2E7, ataqueJugador=40, defensaJugador=75, valoracionTotal=57}
+Jugador{nombreJugador='Malang Sarr', posicionJugador=Defensor, costoJugador=8000000.0, ataqueJugador=50, defensaJugador=70, valoracionTotal=60}
+Jugador{nombreJugador='Axel Disasi', posicionJugador=Defensor, costoJugador=1.0E7, ataqueJugador=45, defensaJugador=65, valoracionTotal=55}
+Jugador{nombreJugador='Benoît Badiashile', posicionJugador=Defensor, costoJugador=1.2E7, ataqueJugador=50, defensaJugador=70, valoracionTotal=60}
+Jugador{nombreJugador='Thiago Silva', posicionJugador=Defensor, costoJugador=1.5E7, ataqueJugador=60, defensaJugador=75, valoracionTotal=67}
+Jugador{nombreJugador='Enzo Fernández', posicionJugador=Mediocampista, costoJugador=1.5E7, ataqueJugador=70, defensaJugador=65, valoracionTotal=67}
+Jugador{nombreJugador='Mykhailo Mudryk', posicionJugador=Delantero, costoJugador=1.8E7, ataqueJugador=75, defensaJugador=60, valoracionTotal=67}
+Jugador{nombreJugador='Cole Palmer', posicionJugador=Mediocampista, costoJugador=3.0E7, ataqueJugador=85, defensaJugador=60, valoracionTotal=72}
+Jugador{nombreJugador='Moises Caicedo', posicionJugador=Mediocampista, costoJugador=2.0E7, ataqueJugador=80, defensaJugador=65, valoracionTotal=72}
+Jugador{nombreJugador='Raheem Sterling', posicionJugador=Delantero, costoJugador=3.5E7, ataqueJugador=85, defensaJugador=60, valoracionTotal=72}
+Jugador{nombreJugador='Nicolas Jackson', posicionJugador=Delantero, costoJugador=2.5E7, ataqueJugador=80, defensaJugador=55, valoracionTotal=67}

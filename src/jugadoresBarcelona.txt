@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Marc-André ter Stegen', posicionJugador=Portero, costoJugador=1.5E7, ataqueJugador=80, defensaJugador=95, valoracionTotal=87}
+Jugador{nombreJugador='João Cancelo', posicionJugador=Defensor, costoJugador=1.0E7, ataqueJugador=50, defensaJugador=85, valoracionTotal=67}
+Jugador{nombreJugador='Ronald Araujo', posicionJugador=Defensor, costoJugador=2.0E7, ataqueJugador=70, defensaJugador=95, valoracionTotal=82}
+Jugador{nombreJugador='Marcos Alonso', posicionJugador=Defensor, costoJugador=1.0E7, ataqueJugador=70, defensaJugador=85, valoracionTotal=77}
+Jugador{nombreJugador='Jules Koundé', posicionJugador=Defensor, costoJugador=1.0E7, ataqueJugador=50, defensaJugador=80, valoracionTotal=65}
+Jugador{nombreJugador='Pedri', posicionJugador=Mediocampista, costoJugador=2.0E7, ataqueJugador=75, defensaJugador=75, valoracionTotal=75}
+Jugador{nombreJugador='Frenkie de Jong', posicionJugador=Mediocampista, costoJugador=2.0E7, ataqueJugador=70, defensaJugador=80, valoracionTotal=75}
+Jugador{nombreJugador='Ilkay Gündogan', posicionJugador=Mediocampista, costoJugador=1.0E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}
+Jugador{nombreJugador='Robert Lewandowski', posicionJugador=Delantero, costoJugador=1.0E7, ataqueJugador=80, defensaJugador=65, valoracionTotal=72}
+Jugador{nombreJugador='João Félix', posicionJugador=Delantero, costoJugador=1.5E7, ataqueJugador=80, defensaJugador=60, valoracionTotal=70}
+Jugador{nombreJugador='Lamine Yamal', posicionJugador=Delantero, costoJugador=2.5E7, ataqueJugador=80, defensaJugador=70, valoracionTotal=75}

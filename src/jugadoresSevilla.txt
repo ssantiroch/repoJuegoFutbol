@@ -1,0 +1,11 @@
+Jugador{nombreJugador='Marko Dmitrovic', posicionJugador=Portero, costoJugador=6000000.0, ataqueJugador=40, defensaJugador=75, valoracionTotal=57}
+Jugador{nombreJugador='Kike Salas', posicionJugador=Defensor, costoJugador=8000000.0, ataqueJugador=55, defensaJugador=70, valoracionTotal=62}
+Jugador{nombreJugador='Sergio Ramos', posicionJugador=Defensor, costoJugador=1.5E7, ataqueJugador=70, defensaJugador=80, valoracionTotal=75}
+Jugador{nombreJugador='Jesús Navas', posicionJugador=Defensor, costoJugador=1.1E7, ataqueJugador=55, defensaJugador=78, valoracionTotal=66}
+Jugador{nombreJugador='Marcos Acuña', posicionJugador=Defensor, costoJugador=9000000.0, ataqueJugador=50, defensaJugador=75, valoracionTotal=62}
+Jugador{nombreJugador='Lucas Ocampos', posicionJugador=Mediocampista, costoJugador=1.2E7, ataqueJugador=75, defensaJugador=70, valoracionTotal=72}
+Jugador{nombreJugador='Nemanja Gudelj', posicionJugador=Mediocampista, costoJugador=1.1E7, ataqueJugador=70, defensaJugador=72, valoracionTotal=71}
+Jugador{nombreJugador='Suso', posicionJugador=Mediocampista, costoJugador=1.0E7, ataqueJugador=68, defensaJugador=70, valoracionTotal=69}
+Jugador{nombreJugador='Rafa Mir', posicionJugador=Delantero, costoJugador=1.0E7, ataqueJugador=70, defensaJugador=75, valoracionTotal=72}
+Jugador{nombreJugador='Alejo Véliz', posicionJugador=Delantero, costoJugador=9000000.0, ataqueJugador=68, defensaJugador=72, valoracionTotal=70}
+Jugador{nombreJugador='Dodi Lukébakio', posicionJugador=Delantero, costoJugador=8500000.0, ataqueJugador=65, defensaJugador=70, valoracionTotal=67}
