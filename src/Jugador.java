@@ -41,10 +41,34 @@ public class Jugador {
         this.costoVenta = this.costoJugador / 2;
     }
 
-    private void calcularValoracionTotal() {
+    /*private void calcularValoracionTotal() {
         this.valoracionTotal = (this.ataqueJugador + this.defensaJugador) / 2;
-    }
+    }*/
+public double calcularValoracionTotal() {
+        // Ponderaciones para cada atributo
+        double ponderacionCosto = 0.25; // 25%
+        double ponderacionAtaque = 0.35; // 35%
+        double ponderacionDefensa = 0.25; // 25%
+        double ponderacionGoles = 0.15; // 15%
 
+        // Normalización de los atributos (opcional, depende de tus necesidades)
+        double costoNormalizado = costoJugador / 100; // Suponiendo que el costo está en millones
+        double ataqueNormalizado = ataqueJugador / 100; // Ataque en una escala de 0 a 100
+        double defensaNormalizada = defensaJugador / 100; // Defensa en una escala de 0 a 100
+        double golesNormalizados = golesJugador / 50; // Suponiendo que 50 goles es un valor máximo razonable
+
+        // Cálculo de la valoración total ponderada
+        double valoracionTotal = (costoNormalizado * ponderacionCosto) +
+                                 (ataqueNormalizado * ponderacionAtaque) +
+                                 (defensaNormalizada * ponderacionDefensa) +
+                                 (golesNormalizados * ponderacionGoles);
+
+        // Escalar la valoración total a una escala de 0 a 100 (opcional)
+        valoracionTotal *= 100;
+
+        return valoracionTotal;
+    }
+    
     public String getNombreJugador() {
         return nombreJugador;
     }
