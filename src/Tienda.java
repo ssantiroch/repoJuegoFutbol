@@ -37,10 +37,4 @@ public class Tienda {
             System.out.println(jugador);
         }
     }
-
-    public static void main(String[] args) {
-        String nombreArchivo = "jugadores.txt";
-        List<Jugador> jugadores = leerJugadoresDesdeArchivo(nombreArchivo);
-        mostrarJugadores(jugadores);
-    }
 }
